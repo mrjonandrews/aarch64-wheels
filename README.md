@@ -9,6 +9,7 @@ pip3 install wheel
 
 ### Make a 'wheelhouse' directory to store wheels
 mkdir /tmp/wheelhouse
+
 cd /tmp/wheelhouse
 
 ### Find appropriate wheel and download file to wheelhouse directory

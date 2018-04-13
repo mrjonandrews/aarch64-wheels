@@ -13,7 +13,7 @@ mkdir /tmp/wheelhouse
 cd /tmp/wheelhouse
 
 ### Find appropriate wheel and download file to wheelhouse directory
-wget -O https://github.com/mrjonandrews/aarch64-wheels/tree/master/wheelhouse/numpy-1.14.2-cp35-cp35m-linux_aarch64.whl
+wget https://github.com/mrjonandrews/aarch64-wheels/tree/master/wheelhouse/numpy-1.14.2-cp35-cp35m-linux_aarch64.whl
 
 ### Install
 pip3 install --use-wheel --no-index --find-links=/tmp/wheelhouse numpy

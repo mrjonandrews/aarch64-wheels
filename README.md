@@ -1,8 +1,23 @@
 # aarch64-wheels
 Pre-compiled python wheels for arm64 linux devices running 16.04 LTS (Xenial) on python 3.5
 
-### Make sure you have the latest pip3 that supports wheel
+### Always update first ;)
+sudo apt-get update
+
+### then install python 3.5
+sudo apt-get install python3.5-dev
+
+### Then make sure you have the latest pip3 that supports wheel
 curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3
+
+### (I always use a virtual environment) so if you haven't done that you can find out how to do that here:
+pip3 install virtualenv
+
+### now create and name your virtual environment
+virtualenv your-env-name 
+
+### activate it (once done you'll see you virtual environment name in brackets on your command line)
+workon your-env-name
 
 ### Install wheel
 pip3 install wheel
